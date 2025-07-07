@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "李治根个人主页"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -8,51 +8,51 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# 个人简介
+<img src="/images/profile.jpg" alt="李治根照片" width="180" style="float:right; margin-left:20px; border-radius:50%;"/>
+李治根，现任中国平安资深算法工程师，专注于对话系统、大模型Agent规划与推理、文本生成等领域。现为中国科学院大学博士在读，拥有丰富的AI项目研发与落地经验。
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+- [GitHub主页](https://github.com/iin729)
+- [谷歌学术主页](https://scholar.google.com/citations?user=ag-qhpcAAAAJ&hl=zh-CN)
 
+# 研究方向
+对话系统，大模型Agent规划和推理，文本生成
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 工作经历
+- 中国平安（深圳） 资深算法工程师 2018 – 至今
+- 中兴通讯（深圳） 算法工程师 2017 – 2018
 
-# 📝 Publications 
+# 项目经历
+- 玲珑心智能对话平台
+- 平安银行小安机器人
+- 深圳市法律热线机器人
+- 广东省结核智能医生
+- 政府疫情排查机器人
+- 陆金所理财助手
+- 平安好医生中医问诊助手
+- 平安银行智能驾驶舱
+- 新闻自动摘要系统
+- 舆情监控系统
+- 故障单自动分类
+- “2018 中兴捧月”全国算法大赛
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 教育经历
+- 中国科学院大学  博士 2023.09-至今
+- 中国科学院大学  硕士 2014.09-2017.01
+- 东北大学  本科 2010.09-2014.07
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+# 科研成果
+- Zhigen Li, Yanmeng Wang, et al. ChatSOP: An SOP-Guided MCTS Planning Framework for Controllable LLM Dialogue Agents. In ACL 2025. 【CCF-A 会议】
+- Zhigen Li, Yanmeng Wang, et al. Learning to Adapt to Low-Resource Paraphrase Generation. In EMNLP 2022.【CCF-B 会议】【accepted as ORAL (5% rate)】
+- Rizhao Fan, Zhigen Li, et al. A Cascade Dense Connection Fusion Network for Depth Completion. In BMVC 2022.【CCF-C 会议】
+- CHENLIANG,LIZHIGEN,et al.Conversation Robot Intention Corpus Generation Method and Apparatus, Medium, and Electronic Device. WO2021184547A1.2021.【PCT 国际发明专利】
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+# 荣誉奖项
+- 平安十佳团队
+- 中国科学院大学奖学金
+- 东北大学奖学金
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 实习经历
+- 2015.06 - 2017.02 中国科学院长春光学精密机械与物理研究所，长春，机器人自动控制

@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title: "李治根个人主页"
+description: "李治根 - 对话系统、大模型Agent规划与推理、文本生成"
+repository: iin729/zhigenli.github.io
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,10 +21,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name: "李治根"
+  name_en: "zhigen li"
+  github: "https://github.com/iin729"
+  scholar: "https://scholar.google.com/citations?user=ag-qhpcAAAAJ&hl=zh-CN"
+  email: ""
+  city: "深圳"
+  university: "中国科学院大学"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
